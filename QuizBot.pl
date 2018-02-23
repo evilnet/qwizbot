@@ -38,7 +38,7 @@ $botusermode = '+i-d';
 #$sPassword  = 'xyzpasswordpdq';
 
 # This is the channel the bot will join and play trivia in
-$botchan = '#afternet';
+$botchan = '#yourtriviachannel';
 
 # The modes the bot will set in the channel.
 # (TODO currently does not work, need to check when
@@ -80,7 +80,7 @@ $nBackupSpan = (60*60*24*1);
 $ircserver = '';
 $ircport = '';
 @servers = (
-        'irc.afternet.org:6667',
+        'youri-irc-server:6667',
         );
 
 #----------------------------------------------------------------------------
