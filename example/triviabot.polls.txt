@@ -1,0 +1,14 @@
+seemoviesº921599553º1137421203ºHow often do you see a movie in a movie theatre?ºMonthly=0,Never=0,Often=0,Weekly=0,Rarely=0º
+scarsº921467326º1137611144ºDo you have any scars from injuries or surgery?ºAye=0,Nay=0º
+writestoriesº936085529º1137425923ºHow often do you write any form of short story or work on writing a book?ºDaily=0,Often=0,Never=0,Occasionally=0,Rarely=0º
+weddingpartyº936170539º1137300107ºHave you ever been assigned an official role in someone's wedding, such as Best Man or Flower Girl?ºAye=0,Nay=0º
+leftrightº918754988º1138215532ºDo you consider yourself left- or right-handed?ºBoth=0,Right=0,Left=0º
+ridetrainº921304314º1137701422ºHow often do you ride a train?ºDaily=0,Occasionally=0,Never=0,Rarely=0º
+armedserviceº933258298º1137549325ºHave you ever been in the armed services of your country?ºAye=0,Nay=0º
+seencorpseº935609555º1137873070ºHave you ever personally seen a human corpse, either of a relative or of a stranger?ºNay=0,Aye=0º
+istattooedº917755989º1138181964ºDo you have any permanent tattoos?ºNay=0,Aye=0º
+isfriendlyº917841185º1136979740ºWould you consider yourself a friendly person?ºNay=0,Aye=0º
+cheatedº934072417º1137509833ºHave you ever cheated on a promise of monogamy?ºAye=0,Nay=0º
+youseducedº933372325º1138189579ºHave you ever seduced someone into more contact than they initially wanted?ºNay=0,Aye=0º
+marriedº934940150º1137805133ºHave you ever married?ºNay=0,Aye=0º
+alcoholº933238107º1138193359ºHow often do you drink alcoholic beverages?ºDaily=0,Often=0,Never=0,Weekly=0,Occasionally=0,Rarely=0º

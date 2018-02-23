@@ -1,0 +1,20 @@
+# saved Sat Jan 28 18:47:41 2006
+1ºComputersºWhat does SCSI stand for?ºSmall Computer System InterfaceºSmall Computer Systems Interfaceº108º165º1134100651º1138395215º99999º99999ºº(nobody)º0
+2ºTechnologyºWhat does IBM stand for?ºInternational Business MachinesºInternational Business Machinesº114º161º1137739010º1137738923º99999º99999ºKigaiº(nobody)º0
+3ºComputers+Cloak and DaggerºComputers : What does the file extension .ABK mean ?ºCorel Draw AutobackupºCorelDraw Autobackupº114º229º1130204326º1137708317º99999º99999ººFransº0
+4ºComputers+Physics+Cloak and DaggerºComputers : What does the file extension .AFM mean ?ºAdobe Font MetricsºAdobe Font Metricsº170º292º1138377029º1138376935º99999º99999ºMichael_KlienºFransº0
+6ºComputers+Cloak and DaggerºComputers : What does the file extension .ANI mean ?ºAnimated CursorºAnimated Cursorº141º220º1135251367º1136784675º99999º99999ººFransºACCEPTED(Led_Zeppelin)
+7ºSpeedy+Computers+Cloak and DaggerºComputers : What does the file extension .ANS mean ?ºANSI textºANSIº165º249º1137728484º1138362627º99999º99999ººFransºACCEPTED(Frans)
+8ºSpeedy+Computers+Cloak and DaggerºComputers : What does the file extension .ASC mean ?ºASCII textºASCIIº178º255º1137635514º1137635507º99999º99999ºSoBºFransºACCEPTED(Niki)
+9ºComputers+Cloak and DaggerºComputers : What does the file extension .BAK mean ?ºBackup fileºBackupº198º247º1138479115º1138479093º99999º99999ºMichael_KlienºFransºACCEPTED(Frans)
+10ºSpeedy+Computers+Cloak and DaggerºComputers : What does the file extension .BAT mean ?ºBatch fileºbatchº230º284º1138452121º1138452118º99999º99999ºTenshiºFransº0
+11ºComputers+Cloak and DaggerºComputers : What does the file extension .BIN mean ?ºBinary fileºBinaryº201º245º1137351468º1137597425º99999º99999ººFransº0
+12ºComputers+Cloak and DaggerºComputers : What does the file extension .BMP mean ?ºBitmap fileºBitmapº203º232º1138452937º1138452934º99999º99999ºTenshiºFransºACCEPTED(Frans)
+13ºComputers+Cloak and DaggerºComputers : What does the file extension .CAS mean ?ºComma-delimited ASCII fileºComma-delimitedº88º224º1134168384º1137563437º99999º99999ººFransº0
+14ºComputers+Cloak and DaggerºComputers : What does the file extension .EXE mean ?ºExecutable fileºExecutableº186º230º1136248103º1136248097º99999º99999ºSoBºFransºACCEPTED(Frans)
+15ºPop Culture+ChildrenºCartoons : Ren and ?ºStimpyºStimpyº135º172º1136140132º1137531230º99999º99999ººFransºACCEPTED(Frans)
+16ºPop Culture+Speedy+Couch PotatoºTelevision : Starsky and ?ºHutchºHutchº119º141º1137896753º1137896746º99999º99999ºSoBºFransºACCEPTED(Frans)
+17ºSpeedy+Written WordºArcade : In the videogame Starcraft, what are the Protoss workers called ?ºProbesºProbeº73º123º1121761567º1130515410º99999º99999ººFransº0
+18ºSpeedyºWhat would you call a swampy lake with water that doesn't move around much and has very low nutritious stuff in it?ºBogºBogº73º101º1114454664º1121671998º99999º99999ººFransº0
+52ºSpeedy+ComputersºComputers : A Macintosh is a computer of which brand ?ºAppleºAppleº134º171º1137728541º1137728537º99999º99999ºcoyoteºFransºACCEPTED(Frans)
+53ºGeography+Pop Culture+CinemaºCinema: "I need a father who's a role model, not some horny geek-boy who's gonna spray his shorts every time I bring a girlfriend home from school."ºAmerican BeautyºAmerican Beautyº95º128º1133768424º1137719746º99999º99999ººnightowlºACCEPTED(Frans)

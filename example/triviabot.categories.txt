@@ -1,0 +1,65 @@
+# Qwizbot Category data file. 
+# Categories are made by doing keyword (regex) matches against all the
+# questions known. Matching questions are selected for that category.
+# TODO put a vim code in here to format tabs properly always.
+#
+#Format seems to be:
+#Theme<tab>Minefields<tab>Regex<tab>Exclusion
+# caution: MUST BE TABS NOT SPACES!
+# Non-alpha before Theme gives it that as a lock (eg, *).
+# If Minefields is "." no mine, otherwise a mine is set??
+# If Exclusion is empty or ., its ignored, otherwise its a regex matching
+#    questions will NOT be in the category.
+
+# Special built-in category rules
+Speedy	.	^[A-Za-z]{1,5}$	.
+
+# Mine Fields
+#   if someone says the word in the minefield, they get penalized
+Mash	radar	\b(?i)(M\*A\*S\*H|MASH|Korea|Korean)	\b(?i)(mashed)
+Canuck	canada	\b(?i)(canada|canadian|vancouver|british columbia|nova scotia|novascotia|ottawa|toronto|ontario|quebec)	\b(?i)(australia|china)
+Aussie	australia	\b(?i)(australia|new south wales|queensland|auckland|sydney|melbourne|perth|koala|kangaroo|dingo)	\b(?i)(bermuda)
+High Seas	pacific	\b(?i)(jaws|sailboat|ocean|sea|beach|island|archipelago|shark|octopus|squid|whale|anemone|salt water|sea horse|starfish|jellyfish)	.
+Quotables	west	\b(?i)(quotable|said|quote|mae west|oscar wilde|w.c. fields|groucho marx|lyric|lyrics)	.
+*Magic The Gathering	magical	\b(?i)(magic the gathering|creature|artifact)	\b(?i)(witches|demons|witch|demon)
+*In the Ring	hogan	\b(?i)(wrestling|wrestler|wrestle|wwf|wcw|nwo|sumo|greco roman|weight class|boxing|boxer|hogan)	\b(?i)(paul hogan|hogan's heroes)
+South America	brazil	\b(?i)(south america|brazil|brasil|argentina|colombia|peru|amazon) .
+Bartender	cocktail	\b(?i)(whisky|scotch|vodka|cocktail|bar|bartender|tap|drink|alcohol|juice|tavern|pub|beer|lager|ale|saloon|gin|soda|sherry|wine) .
+
+# Normal Categories
+Porn	.	\b(?i)(cock|sex|sexual|sensual|porn|xxx|xxx-rated|blowjob|anal|john holmes|jenna jameson) .
+Food	.	\b(?i)(food|eat|drink|cocktail|alcohol|flavor|flavour|taste|vegetable|meat|spice|gourmet|chef|cook|bake|cake|yolk|ingredient|dessert|champagne|wine|dish)	\b(spice girl|wrestl)
+Music	.	\b(?i)(music|musician|musicians|musical|song|songs|sing|sings|sang|sung|dance|compose|anthem|theme|album|band|release|melody|harmony)	\b(?i)(singapore)
+Chance	.	\b(?i)(cards|poker|gambling|deck|casino|tarot|game|dice|gamble|probability|permutations)	\b(?i)(video game)
+Colors	.	\b(?i)(color|colour|black|blue|green|red|yellow|orange|white|purple|violet|cyan|teal)	\b(?i)(colorado|redgrave)
+Sports	.	\b(?i)(sport|team|basketball|football|rugby|tennis|swim|soccer|score|pennant|baseball|olympic|stadium|golf|billiards|skiing|hockey|CFL|AFL|NBA|NFL)	\b(?i)(wrestling|wrestler|wrestle|boxing|boxer|video game)
+Europe	.	\b(?i)(europe|france|spain|germany|england|british|britain|united kingdom|ireland|irish|belgium|switzerland|swiss|belgian|rome|italy|italian|london|paris|sweden|norway|denmark|scandinavia)	.
+Sci-Fi	.	\b(?i)(asimov|heinlein|clarke|niven|pournelle|galactica|jedi|dune|scifi|sci-fi|science fiction|x-files)	\b(?i)(star wars|star trek|dragon)
+Cinema	.	\b(?i)(cinema|matrix|movie|film|role|starred|starring|actor|actress|plot|oscar|academy award)	\b(?i)(star trek|star wars)
+Arcade	.	\b(?i)(video game|arcade game|computer game|playstation|nintendo|final fantasy|legend of zelda)	.
+Nippon	.	\b(?i)(nippon|japan|sushi|shogun|anime|manga|haiku)	\b(?i)(manganese|dragonball)
+Couch Potato	.	\b(?i)(television|tv|friends|saved by the bell|primetime|commercial|wings|fresh prince)	\b(?i)(cartoon|Mash)
+Physics	.	\b(?i)(physics|measure|mass|weight|length|gravity|metric|unit|magnet|waves)	\b(?i)(wrestl|boxer|boxing|mystic|magic|president|austin powers|Tolkien|Star Wars|United)
+Biology	.	\b(?i)(biology|anatomy|medicin|insect|animal|vegetable|plant|organ|brain|heart|spleen|liver|lung|species|habitat|climate|bird|mammal)	.
+History	.	\b(?i)(history|what year|when did|war|wars|battle|elected|pope|king|queen|minister|president|dynasty)	\b(?i)(star wars|star trek|sci-fi|scifi|dragon|tolkien|feist|eddings)
+Children	.	\b(?i)(child|young|infant|teletubbies|teletubby|telletubbie|cartoon|disney|nursery|baby|babies|kid)	\b(?i)(kidman|kidney)
+Religion	.	\b(?i)(religion|religious|god|jesus|moses|faith|holy|bible|koran|islam|jewish|judaism|hindu|moses|mormon|saint|church|temple|mosque|synagogue)	\b(?i)(myth)
+Politics	.	\b(?i)(politic|govern|president|capitol|general|document|treaty|war|wars|battle|nation|society|republic)	\b(?i)(star wars|star trek)
+Mythology	.	\b(?i)(myth|legend|roman god|greek god|zeus|apollo)	\b(?i)(map|legend of zelda)
+Chemistry	.	\b(?i)(chemistry|periodic table|atom|molecule|chemical|element|salt|acid|alcohol|neutron|proton)	.
+Computers	.	\b(?i)(computers|computer|domain|hexadecimal|decimal|octal|binary|circuit|device|byte|network|protocol|internet|programming|hardware|software|amiga|apple|desktop|processor|memory) .
+Astronomy	.	\b(?i)(astronomy|constellation|nebula|nebulae|planet|moon|zodiac|meteor|black hole|pulsar|comet|astro|orbit)	\b(?i)(electron|star wars|sci-fi|sci fi|star trek)
+Geography	.	\b(?i)(geography|capital|capitol|state|province|country|city|town|region|sea|ocean|flag|nation|land|border|island|desert|continent|asia|europe|america|river)	\b(tv|episode|movie|star)
+Americana	.	\b(?i)(americana|retromercial|disney|van dyke|mary tyler|mertz|ricardo|green acres|burma shave|mae west|gunsmoke|bonanza|marilyn monroe|kennedy|groucho|stooges|chaplin|roosevelt)	\b(?i)(star trek|star wars|sci-fi)
+Star Trek	.	\b(?i)(star trek|klingon|romulan|deep space nine|ds9|spock|janeway)	\b(?i)(star wars)
+Star Wars	.	\b(?i)(star wars|droid|stormtrooper|jedi|skywalker|leia|kenobi|yoda|han solo|millenium falcon|darth|tatooine|alderaan|hoth|ewok|death star)	\b(?i)(star trek)
+Courtroom	.	\b(?i)(crime|criminal|police|cops|law|legal|illegal|unlawful|judge|attorney|contract|jury|murder|rapist|jail|prison)	\b(?i)(lawrence)
+Technology	.	\b(?i)(device|invent|techno|machine|built)	\b(?i)(star wars|star trek|sci-fi|scifi)
+Psychology	.	\b(?i)(phobia|fear|mania|obsession|ego|mental|superego|psycho|neuro|philoso)	.
+Connection	.	\b(?i)(of the following|what one|connection|in common|share|also|which one)	.
+Mathematics	.	\b(?i)(hexadecimal|math|mathematic|polygon|sides|faces|degrees|number of|square root|multiply|geometry|euclid|plato|descartes|cartesian)	.
+Pop Culture	.	\b(?i)(game|TV|television|movie|sitcom|product|trademark|slogan|singer|television|band|x-files|model|actor|actress|superhero|cartoon|comic strip)	\b(?i)(star trek|star wars|video game)
+High Culture	.	\b(?i)(sculpture|artist|composed|paint|novel|book|composer|created|wrote|author|myth|legend|fiction|literary|opera|architect)	\b(?i)(comic|tolkien|geddings|mccaffrey|dragon|star trek|star wars)
+Written Word	.	\b(?i)(idiom|proverb|simile|saying|verb|means|term for|word|define|synonym|antonym|anagram|abbreviation|called)	.
+Superstition	.	\b(?i)(mystic|superstition|hallow|ghost|x-files|unexplained|phenomenon|supernatural|occult|witch|magic|sprite|fairy|believe|belief|ouija|tarot|salem|bewitched|zodiac|bad luck|thirteen|biorhythm|divination)	\b(?i)(magic the gathering)
+Cloak and Dagger	.	\b(?i)(spy|spies|james bond|007|moneypenny|goldfinger|detective|private eye|p\.i\.|magnum|fbi|cia|mi5|mi6|intelligence|security|file|mission|covert|holmes)	\b(?i)(social security|star trek|star wars)

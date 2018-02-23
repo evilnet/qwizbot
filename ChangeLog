@@ -1,0 +1,25 @@
+2017-02-23  Alex (Rubin) Schumann <rubin@afternet.org>
+        * prose.pm: Fix use of defined() which is not allowed in perl anymore
+
+2006-02-08  Alex (Rubin) Schumann <rubin@afternet.org>
+	* all: Beautified it up for first public release.
+
+2006-01-25  Alex (Rubin) Schumann <rubin@afternet.org>
+	* QuizBot.pl: Retooled all send to irc bits to use one function, which
+	doesn't flood off IRC. Added debugging code.
+
+	* irc.pm: Retooled all send to irc bits to use one function, which
+	doesn't flood off IRC. Added debugging code. Fixed up reading code to
+	read non-blocking so game can continue when there is no traffic on
+	IRC.
+
+2006-01-22  Thom (Krobar) Kovar <krobar@gmail.com>
+	* QuizBot.pl: Renamed weirdbucks to triviabucks
+	* qwizgame.pm: Renamed weirdbucks to triviabucks
+
+2006-01-20  James (Core) Cuff <core@wickedpsyched.net>
+	* TODO: core fill in what you changed here please
+
+* I think there may have been some previous changes before this file was
+started. If you made any please indicate them as best you can. -Rubin
+#-----------------------------------------------------------------------------

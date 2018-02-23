@@ -1,0 +1,45 @@
+##############################################################
+## 
+##  Q U I Z  B O T ! !
+##
+## This program is a perl script which connects to an IRC
+## server and hosts a game of trivia. It has many neat
+## features including polls, online editing of questions, 
+## problem question flagging and review, and several question
+## variations such as "shotgun" to keep things interesting.
+##############################################################
+
+INSTALLATION:
+
+Things are still a little rough, this being the bots first public 
+release, but we think this will get you started. Please DO NOT
+contact Ed Halley for support, as he nolonger maintains this code.
+Use the source forge tools, or join us in #cyber on irc.afternet.org.
+
+1.  Unpack -- ok, tar -xzf filename.tgz, but were assuming you did
+this already or how could you read this file :)
+
+2. Edit QuizBot.pl and customize the bots name, channel and details.
+The top of the file has comments to help you.
+
+3. Copy the example runtime files from the example/ subdirectory and
+rename them to yourbotsname instead of triviabot, if you changed the
+name to something else. These provide some example questions
+and users to get you started. They are binary, so if you need to edit
+them you must use a good editor that wont trample the dilineator it uses
+(i use vim.)
+   - Edit triviabot.players.txt and change the owner line to your nick,
+     mask and password.
+
+4. Start up the bot, auth as owner (/msg bot auth password), and begin 
+adding questions etc. Their is nill for documentation besides online 
+help at this point, so refer to the source if necessary.
+
+BUGS:
+
+  * This bot is quite usable for gamplay, and runs in 2 or 3 channels we
+  know of, however some things are broken at this time: 
+     - Review of flagged questions seems to be flakey.
+     - Shotgun mode sometimes causes questions not to display.
+     - lots of users asking for help at once delays the game.
+
