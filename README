@@ -19,16 +19,16 @@ Use the source forge tools, or join us in #cyber on irc.afternet.org.
 1.  Unpack -- ok, tar -xzf filename.tgz, but were assuming you did
 this already or how could you read this file :)
 
-2. Edit QuizBot.pl and customize the bots name, channel and details.
+2. Edit QwizBot.pl and customize the bots name, channel and details.
 The top of the file has comments to help you.
 
 3. Copy the example runtime files from the example/ subdirectory and
-rename them to yourbotsname instead of triviabot, if you changed the
+rename them to yourbotsname instead of qwizbot, if you changed the
 name to something else. These provide some example questions
 and users to get you started. They are binary, so if you need to edit
 them you must use a good editor that wont trample the dilineator it uses
 (i use vim.)
-   - Edit triviabot.players.txt and change the owner line to your nick,
+   - Edit qwizbot.players.txt and change the owner line to your nick,
      mask and password.
 
 4. Start up the bot, auth as owner (/msg bot auth password), and begin 

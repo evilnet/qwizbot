@@ -16,5 +16,5 @@
 
 # start the bot so it goes to the background, and 
 # doesnt die when the tty is closed:
-nohup /PATH-TO/QuizBot.pl &
+nohup /PATH-TO/QwizBot.pl &
 

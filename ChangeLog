@@ -1,3 +1,8 @@
+2018-11-26  Alex (Rubin) Schumann <rubin@afternet.org>
+        * See git log for further change history.
+        
+        * Renamed fully to qwizbot
+
 2017-02-23  Alex (Rubin) Schumann <rubin@afternet.org>
         * prose.pm: Fix use of defined() which is not allowed in perl anymore
 

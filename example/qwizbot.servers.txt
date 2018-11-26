@@ -1,0 +1,1 @@
+irc.afternet.org:6667

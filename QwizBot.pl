@@ -1,8 +1,9 @@
 #!/usr/bin/perl
 
 #=--------------------------------------=
-#  Quizbot - QuizBot.pl
-#  Copyright (C) Ed Halley and other authors.
+#  Qwizbot - QwizBot.pl
+#  Copyright (C) 2018 Rubin
+#  based on Truevia by Ed Halley and other authors.
 #
 #  This program is free software. You may use, modify, and distribute it
 #  under the terms of the Perl Artistic license, avialible on the world
@@ -26,7 +27,7 @@ $botname = 'Qwizbot';
 $ident = $botname;
 
 # This is the bots 'real name' shown in /whois on IRC.
-$realname = 'Trivia Bot';
+$realname = 'Qwizbot Trivia Bot';
 
 # These are the usermodes the bot sets on itself.
 # +i-d is a good default.
@@ -818,7 +819,7 @@ sub r_say
                             ($cmdnick =~ /$sCurses/i) ||
                                 ($cmdhost =~ /$sCurses/i))
                         {
-                                qwizban($cmdnick, $cmdhost, $botnick, "No profanity in #quiztime please.", 60);
+                                qwizban($cmdnick, $cmdhost, $botnick, "No profanity in the channel, please.", 60);
                                 deactivateplayer($cmdnick);
                                 return;
                         }
@@ -1210,7 +1211,7 @@ sub r_command
                         &NOTICE($commandfields[1],
                                 "You've been named an honorary friend of the channel by $cmdnick; see !help.");
                         &NOTICE($commandfields[1],
-                                "You've been given one TriviaBuck which you can spend to !join a team or for other special purchases.");
+                                "You've been given one QwizBuck which you can spend to !join a team or for other special purchases.");
                 }
                 return;
         }
@@ -1281,12 +1282,12 @@ sub r_command
                                 &NOTICE($cmdnick, "  !best streak        (shows best wins-in-a-row ever)");
                                 &NOTICE($cmdnick, "  !best season-streak (shows best wins-in-a-row this season)");
                                 &NOTICE($cmdnick, "  !best added         (shows most questions added)");
-                                &NOTICE($cmdnick, "  !best TriviaBucks    (shows most TriviaBucks earned)");
+                                &NOTICE($cmdnick, "  !best QwizBucks     (shows most QwizBucks earned)");
                                 &NOTICE($cmdnick, "  !best second        (shows most second-place finishes)");
                                 return;
                         };
 
-                ($commandfields[1] =~ /bonus|QuizBucK|buck/) && do
+                ($commandfields[1] =~ /bonus|QwizBucK|buck/) && do
                         {
                                 &NOTICE($cmdnick, "Some of the many Bonus Quiz Types");
                                 &NOTICE($cmdnick, "  BLIND      (Type a long answer before anyone shows even a single hint, and get a bonus!)");
@@ -1294,8 +1295,8 @@ sub r_command
                                 &NOTICE($cmdnick, "  MIRROR     (The $botnick asks the question backwards. Answer gets a bonus. Backwards answers get two!)");
                                 &NOTICE($cmdnick, "  CATCALL    (Guess the category before someone answers the question, for a bonus!)");
                                 &NOTICE($cmdnick, "  WIPEOUT    (If your team answers all $quizperperiod in a period, all the teammies present get a bonus!)");
-                                &NOTICE($cmdnick, "Watch out for dreaded MINEFIELD rounds: you can lose QuizBucKs for being too fast on the trigger!");
-                                &NOTICE($cmdnick, "TriviaBucks can be spent like money on !category commands or as !enter entry fees for challenge rounds.");
+                                &NOTICE($cmdnick, "Watch out for dreaded MINEFIELD rounds: you can lose QwizBucKs for being too fast on the trigger!");
+                                &NOTICE($cmdnick, "QwizBucKs can be spent like money on !category commands or as !enter entry fees for challenge rounds.");
                                 return;
                         };
 
