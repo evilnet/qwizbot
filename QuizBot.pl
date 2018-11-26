@@ -13,13 +13,12 @@
 # $Id: $
 #
 #=--------------------------------------=
-
 # Configuration Section; Change the following
 # variables to suit you.
 
 # This is the bots default nickname, and how it refers to itself online.
 # Change it to what you want your bots nick to be.
-$botname = 'Trubia';
+$botname = 'Qwizbot';
 
 # actually the irc username sent to the server (ident
 # depends on your identd install). set to $botname by
@@ -38,7 +37,7 @@ $botusermode = '+i-d';
 #$sPassword  = 'xyzpasswordpdq';
 
 # This is the channel the bot will join and play trivia in
-$botchan = '#yourtriviachannel';
+$botchan = '#qwizbot';
 
 # The modes the bot will set in the channel.
 # (TODO currently does not work, need to check when
