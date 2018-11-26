@@ -38,7 +38,7 @@ $botusermode = '+i-d';
 #$sPassword  = 'xyzpasswordpdq';
 
 # This is the channel the bot will join and play trivia in
-$botchan = '#qwizbot';
+$botchan = '#bibletrivia';
 
 # The modes the bot will set in the channel.
 # (TODO currently does not work, need to check when
@@ -370,7 +370,7 @@ sub main
                                         #    ircsendline(S, "NICK $botnick");
                                         #}
                                 }
-                                elsif (/:(\S+)\s+376\s+/) { 
+                                elsif (/:(\S+)\s+(376|422)\s+/) { 
                                     last; 
                                 } # :End of MOTD
                         }
