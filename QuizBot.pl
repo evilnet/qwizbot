@@ -84,6 +84,9 @@ $ircport = '';
 
 #----------------------------------------------------------------------------
 
+use FindBin;
+use lib $FindBin::Bin;
+
 require irc;
 require prose;
 
