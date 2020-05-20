@@ -3,7 +3,6 @@
 # players
 
 # operators
-Yournick:*your@*.hostmask.net:102:1:abcefhijklmnopqrstuvwxyz:913175363:1137899892:0:10280:1137899892:1:84:0:0:99999:0:4:0:5:0:too
-bad:1:1137900691:422:1136024869:2296::custom url/:449:52,105,11,17,67,5,5,37,26,11:9=Owner:yourpassword
+Yournick:*your@*.hostmask.net:102:1:abcefhijklmnopqrstuvwxyz:913175363:1137899892:0:10280:1137899892:1:84:0:0:99999:0:4:0:5:0:too bad:1:1137900691:422:1136024869:2296::custom url/:449:52,105,11,17,67,5,5,37,26,11:9=Owner:yourpassword
 
 # blacklist
