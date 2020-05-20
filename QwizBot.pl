@@ -38,7 +38,7 @@ $botusermode = '+i-d';
 #$sPassword  = 'xyzpasswordpdq';
 
 # This is the channel the bot will join and play trivia in
-$botchan = '#bibletrivia';
+$botchan = '#computerquiz';
 
 # The modes the bot will set in the channel.
 # (TODO currently does not work, need to check when
